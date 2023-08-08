@@ -1,0 +1,40 @@
+.search-container {
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.suggestions {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-top: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+  display: none;
+  max-height: 450px; /* Set a maximum height for overflow */
+  overflow-y: auto; /* Enable vertical scrolling for overflow */
+}
+
+
+.suggestions.active {
+  display: block; /* Show the suggestions when active class is added */
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}

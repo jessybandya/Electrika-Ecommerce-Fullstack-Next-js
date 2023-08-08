@@ -1,0 +1,63 @@
+.cart-item{
+    display:flex;
+    padding:20px;
+    border-bottom:1px solid #efefef
+}
+.cart-product-img{
+    width:130px;
+    position:relative
+}
+.cart-product-img img{
+    width:100%;
+    border-radius:10px;
+    border:1px solid #f7f7f7
+}
+.cart-text{
+    margin-left:20px;
+    width:100%;position:relative
+}
+.cart-text h4{
+    font-size:16px;
+    font-weight:700;
+    line-height:24px;
+    color:#2b2f4c;
+    text-align:left;
+    margin-bottom:10px
+}
+.qty-group{
+    display:flex;
+    align-items:center;
+    margin-top:10px
+}
+
+.quantity{display:inline-block}.quantity .input-text.qty{width:35px;height:30px;padding:0 5px;text-align:center;background-color:transparent;border:0;margin-left:-4px;margin-right:-4px;background:#fff;font-size:12px;font-weight:500}.quantity .input-text.qty.white-bg-input{border:1px solid #efefef}.quantity.buttons_added{text-align:left;position:relative;white-space:nowrap;vertical-align:top}.quantity.buttons_added input{display:inline-block;margin:0;vertical-align:top;box-shadow:none}.quantity.buttons_added .minus,.quantity.buttons_added .plus{padding:0px 10px 5px;height:30px;background-color:#10BBE5;border:0;color:#fff;cursor:pointer;border-radius:3px;width:30px}.quantity.buttons_added .quantity.buttons_added .quantity.buttons_added .minus{border-right:0}.quantity.buttons_added .plus{border-left:0}.quantity.buttons_added .minus:hover,.quantity.buttons_added .plus:hover{background:#f55d2c;color:#fff!important;transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;background-image:-webkit-linear-gradient(left,rgba(230,92,91,0.9),rgba(245,93,44,0.9));background-image:linear-gradient(to right,rgba(230,92,91,0.9),rgba(245,93,44,0.9))}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button{-webkit-appearance:none;-moz-appearance:none;margin:0}.quantity.buttons_added .minus:focus,.quantity.buttons_added .plus:focus{outline:none}
+.minus,.quantity.buttons_added .plus{padding:0px 10px 5px;height:30px;background-color:#10BBE5;border:0;color:#fff;cursor:pointer;border-radius:3px;width:30px}.quantity.buttons_added .minus-btn{border-top-left-radius:5px;border-bottom-left-radius:5px;border-top-right-radius:5;border-bottom-right-radius:5}.quantity.buttons_added .quantity.buttons_added .minus{border-right:0}.quantity.buttons_added .quantity.buttons_added .minus:hover,.quantity.buttons_added .plus:hover{background:#f55d2c;color:#fff!important;transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;background-image:-webkit-linear-gradient(left,rgba(230,92,91,0.9),rgba(245,93,44,0.9));background-image:linear-gradient(to right,rgba(230,92,91,0.9),rgba(245,93,44,0.9))}.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button{-webkit-appearance:none;-moz-appearance:none;margin:0}.quantity.buttons_added .minus:focus,.quantity.buttons_added .plus:focus{outline:none}.cart-item-price{font-size:18px;font-weight:700;line-height:24px;color:#f55d2c;text-align:right;display:inline-flex;margin-left:auto}
+
+.cart-item-price{font-size:14px;font-weight:700;line-height:24px;color:#0000FF;text-align:right;display:inline-flex;margin-left:auto}.cart-item-price span{color:#c7c7c7;text-decoration:line-through;margin-left:10px;font-weight:600}
+.plus-btn {
+    position: relative;
+  }
+  
+  .plus-btn.clicked::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    animation-name: moveUp;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes moveUp {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  
